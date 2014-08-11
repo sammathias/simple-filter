@@ -1,0 +1,43 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Filter</title>
+        <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="list-filter.jquery.js"></script>
+        <script>
+            jQuery(document).on('ready', function(e) {
+                jQuery("#filterable").listFilter();
+            });
+        </script>
+        <link rel="stylesheet" type="text/css" href="list-filter.jquery.css"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div>
+            <ul id="filterable">
+                <li>Offense
+                    <ul>
+                        <li>Aaron Rodgers</li>
+                        <li>John Kuhn</li>
+                        <li>Jordy Nelson</li>
+                    </ul>
+                </li>
+                <li>Defense
+                    <ul>
+                        <li>A.J. Hawk</li>
+                        <li>Clay Matthews</li>
+                    </ul>
+                </li>
+                <li>Special Teams
+                    <ul>
+                        <li>Mason Crosby</li>
+                    </ul>
+                </li>
+            </ul>
+       </div>
+    </body>
+</html>

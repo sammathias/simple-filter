@@ -1,0 +1,21 @@
+/* 
+    Document   : filter.jquery
+    Created on : Aug 11, 2014, 10:27:02 AM
+    Author     : Mathias
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.filterstyle {
+    list-style: none;
+    padding: 0;
+}
+
+.filterstyle .headings > ul {
+    list-style: none;
+    padding: 0 0 0 20px;
+}
